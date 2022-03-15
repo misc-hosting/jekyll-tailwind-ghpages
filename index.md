@@ -1,8 +1,14 @@
 ---
+title: Iota Technology Systems
 layout: default
-title: "Happy Jekylling!"
 ---
 
-## You're ready to go!
+{% include header.html %}
 
-Start developing your Jekyll website.
+<main>
+    {% include case-studies.html %}
+    {% include contact.html %}
+    {% include about.html %}
+</main>
+
+{% include footer.html %}
